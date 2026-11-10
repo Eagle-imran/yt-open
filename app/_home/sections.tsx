@@ -1,11 +1,14 @@
 import { YouTubeIcon } from "../brand";
+import { FlapWord } from "./flap-word";
 
 /** The pitch above the link maker. */
 export function Hero() {
   return (
     <section className="hero">
       <YouTubeIcon width={56} />
-      <h1>Your bio link is losing you subscribers.</h1>
+      <h1>
+        Your bio link is losing you <FlapWord />.
+      </h1>
       <p className="lede">
         Instagram and TikTok open YouTube links in their own browser, where
         viewers aren&apos;t signed in. Tap Subscribe and YouTube asks them to
